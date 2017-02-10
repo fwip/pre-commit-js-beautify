@@ -8,7 +8,7 @@ For js-beautify: see https://github.com/beautify-web/js-beautify
 
 Add this to your `.pre-commit-config.yaml`:
 ```yaml
-    -   repo: git://github.com/scottybarr/pre-commit-js-beautify
+    -   repo: git://github.com/fwip/pre-commit-js-beautify
         sha: ''  # Use the sha you want to point at
         hooks:
         -   id: js-beautify
